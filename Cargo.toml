@@ -41,7 +41,7 @@ serde-value = { version = "0.7", default-features = false }
 url = { version = "2", optional = true, default-features = false }
 
 [features]
-default = ["api"]
+default = ["api", "v1_20"]
 
 api = [
   "http",
